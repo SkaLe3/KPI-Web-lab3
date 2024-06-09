@@ -1,6 +1,6 @@
 # Лабораторна робота №3: Розробка Web-додатка засобами Javascript/VueJS
 ## Завдання
-Адаптувати програмний код ЛР№2 до вимог фреймворка VueJS та забезпечити завантаження необхідних даних з Web-сервера 
+Розробка Web-додатка засобами Javascript/VueJS
 ## Developer
 Парієнко Віктор Володимирович КВ-11
-## [Звіт]()
+## [Звіт](https://docs.google.com/document/d/11jYK8mHgGBddmpqaiD3BTtnqmEw1WiMxF4Oo8pI093w/edit?usp=sharing)
