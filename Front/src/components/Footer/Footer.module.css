@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.footerOne,
+.footerTwo,
+.footerThree {
+  margin-bottom: 20px; /* Добавляем отступ снизу */
+}
+
+.footerOne img,
+.footerTwo img {
+  width: 100%; /* Устанавливаем ширину изображения */
+  height: auto; /* Сохраняем соотношение сторон */
+}
+
+.footerThree {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footerThreeOne {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+.footerThreeOne h2 {
+  margin-bottom: 10px;
+}
+
+.footerThreeOne h4 {
+  margin: 5px 0;
+}
+
+.footerOne img {
+  height: 1px;
+  width: 200vh;
+}
+
+.footerTwo img {
+  width: 120px;
+}

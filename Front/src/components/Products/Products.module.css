@@ -1,0 +1,144 @@
+.firstDiv {
+  position: relative;
+  background-color: #1a141e;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.img1,
+.img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img1 {
+  width: 100%;
+  height: auto; /* Изменено на auto */
+}
+
+.img2 {
+  z-index: 1;
+  top: 50px;
+  left: 70px;
+}
+
+.text_white {
+  display: flex;
+  color: white;
+  z-index: 2;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.secondSection {
+  background-color: #1a141e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.secondDiv {
+  display: flex;
+  background-color: #1a141e;
+  font-size: 30px;
+}
+
+.thirdDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardRow {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a141e;
+  margin: 50px;
+  height: 250px;
+  width: 150px;
+  border-radius: 5%;
+  color: white;
+  border: 2px solid white;
+  overflow: hidden; /* Предотвращает выход контента за пределы карточки */
+  transition:
+    background-color 0.3s,
+    border-color 0.3s; /* Плавный переход */
+}
+
+.card:hover {
+  background-color: #2a2436; /* Изменение фона при наведении */
+  border-color: #f0e68c; /* Изменение цвета границы при наведении */
+}
+
+.card img {
+  width: 100%; /* Изображение покрывает всю ширину карточки */
+  height: 60%; /* Изображение занимает 60% высоты карточки */
+  object-fit: cover; /* Изображение подстраивается под контейнер, сохраняя пропорции */
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.cardText {
+  padding: 10px;
+  flex-grow: 1; /* Контент занимает оставшееся пространство */
+  display: flex;
+  align-items: center; /* Центрирование контента по вертикали */
+  justify-content: center; /* Центрирование контента по горизонтали */
+  text-align: center; /* Центрирование текста */
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(to left, rgb(28, 137, 147), #b168b8);
+}
+
+.cardSecText {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.buttonAdd {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 130px;
+  height: 50px;
+  background-color: #b168b8;
+  border: solid 1px black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.inputInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputInfo input {
+  padding: 5px;
+  color: black;
+  border: pink solid 2px;
+}

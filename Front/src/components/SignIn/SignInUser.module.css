@@ -1,0 +1,50 @@
+.mainSection {
+  background-color: grey;
+  margin: 50px;
+  border: 2px solid white;
+  border-radius: 3%;
+  padding: 30px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+* {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.centerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+}
+
+.date_row {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.secondForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
